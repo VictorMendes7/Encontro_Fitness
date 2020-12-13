@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapa Encontro Fitness</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <script src="https://kit.fontawesome.com/1e56767019.js"></script> 
+  </head>
+  <body >
+    
+    <!-- classe responsavel por tamanho do menu,cor e backgroud -->
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-gradient-dark" style="margin: 0%; padding: 0%;">
+      <div class="">
+   
+          <!-- classe responsavel pelo nome que ficara ao lado do menu-->
+          <a class="navbar-brand h1 mb-0" href="#">Encontro Fitness</a>
+
+          <!-- classe responsavel pelo botão -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+                <!-- Div e classe responsavel por nomes dos itens do menu -->
+          <div class="collapse navbar-collapse" id="navbarSite" >
+             <ul class="navbar-nav mr-auto">
+                 <li class="nav-item">
+                     <a class="nav-link" href="home.php"><i class="fa fa-home fa-fw" aria-hidden="true"></i>Início</a>
+                 </li>
+                   <!-- Div e classe responsavel por nomes dos itens do menu e sub-menus -->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle ml-2" href="#" data-toggle="dropdown" id="navDrop" >
+                      Encontro
+                     </a>
+                     <div class="dropdown-menu">
+                         <a class="dropdown-item" href="cadastroEncontro.php">Cadastrar</a>
+                         <a class="dropdown-item" href="consultarEncontro.php">Consultar</a>
+                         <a class="dropdown-item" href="alterarEncontro.php">Alterar</a>
+                         <a class="dropdown-item" href="excluirEncontro.php">Excluir</a>
+                     </div>
+                 </li>
+
+                 <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle ml-2" href="#" data-toggle="dropdown" id="navDrop">
+                     Cartao
+                     </a>
+                     <div class="dropdown-menu">
+                         <a class="dropdown-item" href="cadastrarCartao.php">Cadastrar</a>
+                         <a class="dropdown-item" href="consultaCartao.php">Consultar</a>
+                         <a class="dropdown-item" href="alterarCartao.php">Alterar</a>
+                         <a class="dropdown-item" href="excluirCartao.php">Excluir</a>
+                     </div>
+                 </li>
+
+                 <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle ml-2" href="#" data-toggle="dropdown" id="navDrop" >
+                      Mapa
+                     </a>
+                     <div class="dropdown-menu">
+                         <a class="dropdown-item" href="teste.html">Consultar</a>
+                     </div>
+                    
+                 </li>
+
+                 <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle ml-2" href="#" data-toggle="dropdown" id="navDrop">
+                     Premium Fitness
+                     </a>
+                     <div class="dropdown-menu">
+                         <a class="dropdown-item" href="cadastrarAssinatura.php">Cadastrar</a>
+                     </div>
+                 </li>
+
+
+
+
+                 
+             </ul>    
+             <ul class="navbar-nav ml-auto">
+                 <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                     <i class="fa fa-user-circle fa-2x  "></i>
+                     </a>
+                     <div class="dropdown-menu" >
+                         <!--  <a class="dropdown-item" href="alterarUsuario.php"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> Alterar dados da conta</a>
+                         --><a class="dropdown-item" href=""><i class="fas fa-sign-out-alt"></i>Perfil</a>
+                         <a class="dropdown-item" href="logout.php"><i class="fas fa-sign-out-alt"></i>Sair</a>
+                     </div>
+                     
+                  </li>
+                  
+             </ul>
+             <!--
+             <form class="form-inline">
+                 <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+                 <button class="btn btn-dark" type="submit">OK</button>
+              </form>
+               -->
+          </div>
+          <div style="margin-top: 580px;"></div>
+          
+    </div>  
+    <div style="width: 100%;"><iframe src="https://www.google.com/maps/d/embed?mid=1hZA6J65qL_PIFBx8Z0atnV8IOK9KYceJ" width="100%" height="700" style="margin: 0%; padding: 0%;"></iframe>
+    </div>
+ </nav>  
+
+ 
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
